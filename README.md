@@ -24,16 +24,3 @@ Manual:
 type: custom:wcc-board-card
 tournament_id: qfkdt8mn
 refresh_seconds: 30
-(Click Commit changes)
-
-4. (Optional) On the right sidebar -> Create a new release -> Choose a tag -> type v1.0.0 -> Create new tag -> Publish release.
-
-2️⃣ INSTALL IN HOME ASSISTANT
-• With HACS: Open HACS -> ⋮ -> Custom repositories -> paste your repo URL -> pick Dashboard -> Add -> Download -> Reload.
-• Without HACS: Put wcc-board-card.js in /config/www/wcc-board-card.js -> go to Settings -> Dashboards -> ⋮ -> Resources -> add /local/wcc-board-card.js?v=1 (JavaScript Module).
-
-3️⃣ ADD CARD TO DASHBOARD
-Edit Dashboard -> Add Card -> Manual -> paste:
-type: custom:wcc-board-card
-tournament_id: qfkdt8mn
-refresh_seconds: 30
